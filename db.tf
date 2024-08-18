@@ -74,6 +74,6 @@ resource "azurerm_sql_firewall_rule" "allow_my_ip" {
   name                = "allow-my-ip"
   resource_group_name = azurerm_mssql_server.sql_server.resource_group_name
   server_name         = azurerm_mssql_server.sql_server.name
-  start_ip_address    = "201.190.16.157"
-  end_ip_address      = "201.190.16.157"
+  start_ip_address    = "190.53.248.219"
+  end_ip_address      = "190.53.248.219"
 }
