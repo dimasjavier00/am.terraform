@@ -1,0 +1,7 @@
+*.tfstate
+*.tfstate.*
+# parecido a variables de entornos ->
+*.tfvars 
+# carpeta de configuraciones ->
+.terraform/ 
+.terraform.*
